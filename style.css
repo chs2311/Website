@@ -31,7 +31,6 @@ body {
 .app {
     border-color: #fff;
     border-bottom: 2px dashed #fff;
-    background-color: #252530;
     padding: 20px;
     padding-bottom: 25px;
     text-align: left;
@@ -67,11 +66,12 @@ body {
     width: 100%;
     height: 100%;
     display: grid;
+    background-color: #252530;
 }
 
 .centercontent {
-    margin:auto;
     padding:25px;
+    margin:auto;
     width: 80%;
     height: 80%;
 }
@@ -81,20 +81,16 @@ body {
     margin:auto;
 }
 
-.demo-card-square.mdl-card {
-    width: 320px;
-    height: 320px;
-    border-radius: 15px;
-    border-width: 2px;
-    padding: 5px;
+.article-preview-img-text {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    max-width: 70%;
 }
 
-.demo-card-square > .mdl-card__title {
-    color: #fff;
-}
-
-.demo200 {
-    background: url('images/200-cover.png');
-    background-size: 310px 190px;
-    background-repeat: no-repeat;
+.article-preview-img {
+    width:250px;
+    height: 188px;
+    max-width: 40%;
 }
